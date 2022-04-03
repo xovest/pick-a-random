@@ -2,3 +2,42 @@
   font-family: 'Montserrat', sans-serif;
   font-family: 'Send Flowers', cursive;
 }
+
+body {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+
+.card_img {
+  width: 500px;
+  height: 500px;
+  overflow: hidden;
+  border-radius: 100%;
+  margin-left: 6rem;
+  margin-top: 10rem;
+}
+
+.card_img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.picktable {
+  font-size: 4rem;
+  margin-left: 6rem;
+}
+
+button {
+  font-size: 5rem;
+}
+
+.buttons {
+  margin-left: 7.5rem;
+  display: grid;
+  grid-template-columns: 200px 200px;
+  grid-row: auto auto;
+  grid-column-gap: 20px;
+  grid-row-gap: 20px;
+}
